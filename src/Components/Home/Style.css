@@ -1,0 +1,9 @@
+.home {
+  padding: 10px;
+}
+.home .ant-list-items {
+  overflow: auto;
+  height: 80vh;
+  max-height: 80%;
+  min-height: 80%;
+}/*# sourceMappingURL=Style.css.map */

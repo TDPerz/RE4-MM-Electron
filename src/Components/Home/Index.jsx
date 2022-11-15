@@ -1,4 +1,5 @@
 import {List} from 'antd'
+import './Style.css'
 
 const mods = Array.from({length:20}).map((_, index)=>{
     return {id:index, name:`Mod ${index}`, descripcion:`Descripcion del mod No:${index}`, links:[
@@ -11,14 +12,15 @@ const mods = Array.from({length:20}).map((_, index)=>{
 function Home() {
 
     console.log(mods)
+    console.log(process.env)
 
     return (
-        <div>
+        <div className='home'>
             <List
                 itemLayout="horizontal"
                 size='middle'
                 pagination={{
-                    pageSize:4
+                    pageSize:15
                 }}
                 dataSource={mods}
                 renderItem={item=>(

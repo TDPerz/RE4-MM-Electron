@@ -1,0 +1,26 @@
+.header-menu {
+  -webkit-app-region: drag;
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+.header-menu div p {
+  margin: 0px 2px;
+  line-height: 30px;
+}
+.header-menu div {
+  display: flex;
+  -webkit-app-region: none;
+  height: 30px;
+  margin: 0;
+  border-radius: 0px;
+}
+.header-menu div .ant-btn {
+  border-radius: 0px;
+  margin: 0px;
+  height: 30px;
+  background-color: transparent;
+  border-color: transparent;
+}/*# sourceMappingURL=style.css.map */

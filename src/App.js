@@ -5,6 +5,7 @@ import { BrowserRouter, Link, Route, Routes, useLocation, useNavigate } from 're
 import Settings from './Components/Settigns/Settings';
 import '../node_modules/antd/dist/antd.dark.css'
 import Containers from './Components/Container';
+import CreateMod from './Components/Create/Index';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Containers />}>
           <Route path='' element={<Home />} />
+          <Route path='/addmod' element={<CreateMod />} />
           <Route path='settings' element={<Settings />} />
         </Route>
       </Routes>
